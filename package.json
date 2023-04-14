@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-gds",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/nunito": "^4.5.12",
+    "@fontsource/nunito-sans": "^4.5.10",
+    "@mui/material": "^5.11.16",
+    "aos": "^2.3.4",
+    "dotenv": "^16.0.3",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next": "13.3.0",
+    "nodemailer": "^6.9.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-toastify": "^9.1.2"
+  }
+}
