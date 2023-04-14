@@ -66,7 +66,7 @@ function Contact() {
   return (
     <Box
       sx={{
-        pt: 6,
+        pt: 8,
         pb: 3,
         mt: 6,
         bgcolor: 'hsl(163deg 46% 41% / 58%)',
