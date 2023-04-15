@@ -116,7 +116,7 @@ function Home() {
             variant="h5"
             component="h2"
             sx={{
-              fontSize: 'calc(0.8rem + 1.4vw)',
+              fontSize: 'calc(0.9rem + 1.4vw)',
               mb: 2,
               '@media (max-width: 500px)': {
                 fontSize: '2rem'
