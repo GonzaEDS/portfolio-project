@@ -115,7 +115,13 @@ function Home() {
             data-aos-duration="1000"
             variant="h5"
             component="h2"
-            sx={{ fontSize: '2rem', mb: 2 }}
+            sx={{
+              fontSize: 'calc(0.8rem + 1.4vw)',
+              mb: 2,
+              '@media (max-width: 500px)': {
+                fontSize: '2rem'
+              }
+            }}
           >
             Full-Stack Developer
           </Typography>
@@ -127,9 +133,11 @@ function Home() {
             alignItems: 'center',
             position: 'absolute',
             bottom: '9vh',
-            gap: '3rem',
+            gap: 'calc(1.4rem + 2vw)',
+            fontSize: 'calc(0.6rem + 0.5vw)',
             '@media (max-width: 500px)': {
               gap: '2rem',
+              fontSize: '1rem',
               width: '100%'
             }
           }}

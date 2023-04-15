@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 function Projects() {
   return (
     <Box
-      sx={{ py: 5, minHeight: '100vh' }}
+      sx={{ pt: 6, minHeight: '100vh' }}
       id="projects-section"
       data-aos="fade-right"
     >

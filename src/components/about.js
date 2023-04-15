@@ -15,7 +15,7 @@ function About() {
   return (
     <Box
       sx={{
-        pt: 8,
+        pt: 6,
         pb: 6,
         display: 'flex',
         flexDirection: 'column',
