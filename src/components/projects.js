@@ -45,7 +45,7 @@ function Projects() {
             title="LaissezFaire"
             tech={['React', 'JavaScript', 'Firebase']}
             description="An E-commerce built primary with React. Using Firestore as database."
-            link="https://gonzaeds.github.io/"
+            link="https://gonzaeds.github.io/LaissezFaire-DosSantos-React13/"
             image={'/laissezfaire.png'}
           />
         </Grid>
@@ -54,7 +54,7 @@ function Projects() {
             title="Traden"
             tech={['Python', 'Flask', 'CSS', 'Bootstrap']}
             description="A crypto exchange simulator built in Flask as a capstone project for CS50"
-            link="https://gonzaeds.github.io/"
+            link="https://github.com/GonzaEDS/Traden"
             image={'/traden3.png'}
           />
         </Grid>
